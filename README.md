@@ -56,3 +56,8 @@ This project shows:
 ### 2. Go the http://127.0.0.1:5000/
 
 ### 3. Create an account and log in
+
+
+
+# NB. How to extend with python and js charts
+incorporate functionality from pyecharts and GanttFlask into the main app. 
