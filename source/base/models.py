@@ -24,3 +24,10 @@ class User(Base, UserMixin):
 
     def __repr__(self):
         return str(self.username)
+
+
+class Project(Base):
+    __tablename__ = 'Project'
+
+    id = Column(Integer, primary_key=True)
+    title = Column(String(120))
